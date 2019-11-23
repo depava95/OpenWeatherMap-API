@@ -1,8 +1,13 @@
 package com.biedin.openweather.model;
 
-/**
- * @author Ihor Biedin 21.11.2019
- */
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class GetWeatherRequest {
+    private String city;
+    private String lang;
 }

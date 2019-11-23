@@ -1,4 +1,4 @@
-package com.biedin.openweather.domain;
+package com.biedin.openweather.repository.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
@@ -16,7 +16,7 @@ public class City {
     @Column(name = "id")
     @Id
     private long id;
-    @Column(name = "name", unique = true)
+    @Column(name = "name")
     private String name;
     @Column(name = "country")
     private String country;

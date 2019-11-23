@@ -1,8 +1,11 @@
 package com.biedin.openweather.model;
 
-/**
- * @author Ihor Biedin 20.11.2019
- */
+import lombok.Data;
 
+@Data
 public class Weather {
+    private long id;
+    private String main;
+    private String description;
+    private String icon;
 }

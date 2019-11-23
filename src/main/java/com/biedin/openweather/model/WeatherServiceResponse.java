@@ -8,7 +8,7 @@ import java.util.List;
 
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class WeatherParams {
+public class WeatherServiceResponse {
     private List<Weather> weather;
     private Main main;
     private Wind wind;

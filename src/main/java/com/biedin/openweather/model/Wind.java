@@ -1,8 +1,9 @@
 package com.biedin.openweather.model;
 
-/**
- * @author Ihor Biedin 20.11.2019
- */
+import lombok.Data;
 
+@Data
 public class Wind {
+    private double speed;
+    private double deg;
 }
